@@ -9,7 +9,7 @@ display(){
     input.position(400,400)
     
   button = createButton("PLAY")
-  button.position(425,450)
+  button.position(450,450)
  
   button.mousePressed(function()
   {
@@ -18,22 +18,11 @@ display(){
   title.hide();
   name = input.value();
   changeName(name);
-  var Greeting = createElement("h3");
-  Greeting.html("Helo  "+name)
-  Greeting.position("450,500")
+  var Greeting = createElement("h2");
+  Greeting.html("HELLO  "+name)
+ Greeting.position(300,425)
   })
-// if(keyDown="Enter")
-// {
-//     input.hide();
-//     button.hide();
-//     title.hide();
-//     name = input.value();
-//     changeName(name);
-//     var Greeting = createElement("h3");
-//     Greeting.html("Helo  "+name)
-//     Greeting.position("450,500")
 
-// }
 }
 
 }
