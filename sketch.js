@@ -4,7 +4,7 @@ var inputsketch;
 var img1,img2,img3,img4,anime,monkey;
 function preload()
 {
-anime = loadAnimation("img/1.png","img/2.png","img/3.png","img/4.png","img/6.png","img/7.png")
+anime = loadAnimation("1.png","2.png","3.png","4.png","6.png","7.png")
 }
 function setup()
 {
